@@ -2,7 +2,7 @@ realms:
   value: "imdae-ms-auth"
 
 auth:
-  client-id: "imdae-ms-client"
+  client-id: "imdae-ms-auth"
   client-secret: "E85jF1VWPvE3zoQGkAiMj2KKIQQU80mL"
   
 spring:
