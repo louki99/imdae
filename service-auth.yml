@@ -1,0 +1,6 @@
+realms:
+  value: "imdae-ms-auth"
+
+auth:
+  client-id: "imdae-ms-client"
+  client-secret: "E85jF1VWPvE3zoQGkAiMj2KKIQQU80mL"
