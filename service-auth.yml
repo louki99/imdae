@@ -1,9 +1,9 @@
 realms:
-  value: "imdae-ms-auth"
+  value: "imdae-ms"
 
 auth:
-  client-id: "imdae-ms-client"
-  client-secret: "E85jF1VWPvE3zoQGkAiMj2KKIQQU80mL"
+  client-id: "imdae-ms-auth"
+  client-secret: "YR6PnngjGSZ3HqDcwJDrC7PENK7rZ31h"
 spring:
   zipkin:
     base-url: http://localhost:9411
