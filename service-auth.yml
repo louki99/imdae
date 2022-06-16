@@ -3,7 +3,7 @@ realms:
 
 auth:
   client-id: "imdae-ms-auth"
-  client-secret: "YR6PnngjGSZ3HqDcwJDrC7PENK7rZ31h"
+  client-secret: "TEDiw5jRJ555w1PIEuR4GYeLPXOevQoT"
 spring:
   zipkin:
     base-url: http://localhost:9411
