@@ -1,1 +1,10 @@
 
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: ${MONGODB_USERNAME:root}
+      database: ${MONGODB_DATABASE:imdae}
+      password: ${MONGODB_PASSWORD:password}
+      port:     ${MONGODB_PORT:27017}
+      host:     ${MONGODB_DOMAIN:localhost}
