@@ -1,3 +1,15 @@
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+      
 spring:
   data:
     mongodb:
@@ -6,7 +18,7 @@ spring:
       database: ${MONGODB_DATABASE:imdae}
       password: ${MONGODB_PASSWORD:password}
       port:     ${MONGODB_PORT:27017}
-      host:     ${MONGODB_DOMAIN:10.107.225.60}
+      host:     ${MONGODB_DOMAIN:localhost}
   zipkin:
     base-url: http://localhost:9411
   sleuth:
