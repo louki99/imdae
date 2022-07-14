@@ -21,3 +21,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka:password@localhost:8761/eureka
+      
+endpoint:
+  consent-url: "http://localhost:5020/"
