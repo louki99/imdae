@@ -6,7 +6,7 @@ auth:
   client-secret: "TEDiw5jRJ555w1PIEuR4GYeLPXOevQoT"
 spring:
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://${ZIPKIN_HOST:localhost}:9411
   sleuth:
     sampler:
       probability: '1.0'
@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka:password@localhost:8761/eureka
+      defaultZone: http://eureka:password@${EUREKA_HOST:localhost}:8761/eureka
       
 management:
   health:
