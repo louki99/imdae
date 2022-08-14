@@ -1,5 +1,7 @@
 realms:
   value: "imdae-ms"
+  clientId: "ventos-managment"
+  secretClient: "N8DvzSa6Oiiw4rMRncgeb0dcc4xtipqk"
 
 auth:
   client-id: "imdae-ms-auth"
