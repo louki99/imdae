@@ -55,3 +55,6 @@ resilience4j:
         limitForPeriod: 10
         limitRefreshPeriod: 10s
         timeoutDuration: 3s
+        
+file:
+  upload-dir: /home/louki/uploads
