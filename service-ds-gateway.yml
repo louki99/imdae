@@ -19,3 +19,6 @@ eureka:
 
 test:
   name: "hello micro service updated config data againe"
+saving:
+  default:
+    path: ${SAVING_DEFAULT_PATH:/home/mohammed/docker_data/}
