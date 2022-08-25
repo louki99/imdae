@@ -32,3 +32,6 @@ eureka:
       
 endpoint:
   consentUrl: "http://localhost:5020/"
+certificate:
+  default:
+    path: ${DEFAULT_PATH:/home/mohammed/docker_data/}
