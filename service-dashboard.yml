@@ -1,6 +1,6 @@
 auth:
   clientImdae-id: "barid-media-client"
-  clientImdae-secret: "iX8FGEuLWekUrQhPnj7oSuRudoQLa4Wi",
+  clientImdae-secret: "iX8FGEuLWekUrQhPnj7oSuRudoQLa4Wi"
   grantImdae-type: "password"
 management:
   health:
