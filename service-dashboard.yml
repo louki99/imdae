@@ -1,3 +1,6 @@
+auth:
+  client-id: "barid-media-client"
+  client-secret: "iX8FGEuLWekUrQhPnj7oSuRudoQLa4Wi"
 management:
   health:
     circuitbreakers:
