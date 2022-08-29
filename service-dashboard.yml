@@ -1,7 +1,7 @@
 auth:
-  client-id: "barid-media-client"
-  client-secret: "iX8FGEuLWekUrQhPnj7oSuRudoQLa4Wi",
-  grant-type: "password"
+  clientImdae-id: "barid-media-client"
+  clientImdae-secret: "iX8FGEuLWekUrQhPnj7oSuRudoQLa4Wi",
+  grantImdae-type: "password"
 management:
   health:
     circuitbreakers:
