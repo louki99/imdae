@@ -1,6 +1,6 @@
 auth:
   clientImdae-id: "imdae-ms-auth"
-  clientImdae-secret: "iX8FGEuLWekUrQhPnj7oSuRudoQLa4Wi" #"G047Bkz3BSkTTpHx604p79pFUYLLcfId"
+  clientImdae-secret: "G047Bkz3BSkTTpHx604p79pFUYLLcfId"
   grantImdae-type: "password"
 management:
   health:
