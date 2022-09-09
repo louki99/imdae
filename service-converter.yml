@@ -20,4 +20,4 @@ eureka:
       defaultZone: http://eureka:password@${EUREKA_HOST:localhost}:8761/eureka
       
 pdf:
-  directory: ${PATH_FILES_PROOFS:/data}
+  directory: ${PATH_FILES_PROOFS:/data/}
