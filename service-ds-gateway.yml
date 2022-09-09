@@ -22,3 +22,5 @@ test:
 saving:
   default:
     path: ${SAVING_DEFAULT_PATH:/home/mohammed/docker_data/}
+bam: 
+  ssl-keystore-path: ${SSL_KEYSTORE_PATH:/data/BaridMedia_Client_Authentification.p12}
