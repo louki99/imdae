@@ -1,1 +1,23 @@
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+      
+spring:
+  zipkin:
+    base-url: http://${ZIPKIN_HOST:localhost}:9411
+  sleuth:
+    sampler:
+      probability: '1.0'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:password@${EUREKA_HOST:localhost}:8761/eureka
+      
+pdf:
+  directory: /root/data/proofs/
