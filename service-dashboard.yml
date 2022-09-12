@@ -61,4 +61,4 @@ resilience4j:
         timeoutDuration: 3s
         
 file:
-  upload-dir: /home/louki/uploads
+  upload-dir: /data/
