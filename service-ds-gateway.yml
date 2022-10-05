@@ -28,6 +28,7 @@ bam:
   
 springdoc:
   swagger-ui:
-    url: /api/openapi.json
-    disable-swagger-default-url: 'true'
-    path: docs/ui
+    enabled: true
+    config-url: /api/v1/api-docs
+  api-docs:
+    enabled: true
