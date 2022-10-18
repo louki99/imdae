@@ -17,17 +17,16 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka:password@${EUREKA_HOST:localhost}:8761/eureka
       
+# Actuator Prometheus Endpoint
 management:
-  health:
-    circuitbreakers:
-      enabled: true
   endpoints:
     web:
       exposure:
-        include: health
-  endpoint:
-    health:
-      show-details: always
+        include: prometheus
+  health:
+    circuitbreakers:
+      enabled: true
+
       
 resilience4j:
   circuitbreaker:
