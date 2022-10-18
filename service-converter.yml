@@ -1,12 +1,12 @@
-
+# Actuator Prometheus Endpoint
 management:
   endpoints:
     web:
       exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: always
+        include: prometheus
+  health:
+    circuitbreakers:
+      enabled: true
       
 spring:
   zipkin:
