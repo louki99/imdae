@@ -1,12 +1,12 @@
 # Actuator Prometheus Endpoint
 management:
-  endpoints:
-    web:
-      exposure:
-        include: prometheus
   health:
     circuitbreakers:
       enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health
       
 spring:
   data:
