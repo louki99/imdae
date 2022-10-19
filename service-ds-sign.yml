@@ -3,7 +3,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: prometheus
+        include: "*"
   health:
     circuitbreakers:
       enabled: true
@@ -33,6 +33,3 @@ certificate:
   default:
     path: ${DEFAULT_PATH:/home/mohammed/docker_data/}
     
-logging:
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
