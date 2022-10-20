@@ -1,6 +1,6 @@
 spring:
   data:
-    mongodb:
+    primary:
       imdae:
         authentication-database: admin
         username: ${MONGODB_USERNAME:root}
@@ -8,7 +8,7 @@ spring:
         password: ${MONGODB_PASSWORD:password}
         port: ${MONGODB_PORT:27017}
         host: ${MONGODB_DOMAIN:10.107.225.60}
-      client:
+      secondary:
         authentication-database: admin
         username: ${MONGODB_USERNAME:root}
         database: ${MONGODB_DATABASE:gatewayClient}
