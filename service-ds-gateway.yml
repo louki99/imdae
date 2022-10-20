@@ -1,21 +1,19 @@
+mongodb:
+  primary:
+    authentication-database: admin
+    username: ${MONGODB_USERNAME:root}
+    database: ${MONGODB_DATABASE:imdae}
+    password: ${MONGODB_PASSWORD:password}
+    port: ${MONGODB_PORT:27017}
+    host: ${MONGODB_DOMAIN:10.107.225.60}
+  secondary:
+    authentication-database: admin
+    username: ${MONGODB_USERNAME:root}
+    database: ${MONGODB_DATABASE:imdae}
+    password: ${MONGODB_PASSWORD:password}
+    port: ${MONGODB_PORT:27017}
+    host: ${MONGODB_DOMAIN:10.107.225.60}
 spring:
-  data:
-    primary:
-      primary:
-        authentication-database: admin
-        username: ${MONGODB_USERNAME:root}
-        database: ${MONGODB_DATABASE:imdae}
-        password: ${MONGODB_PASSWORD:password}
-        port: ${MONGODB_PORT:27017}
-        host: ${MONGODB_DOMAIN:10.107.225.60}
-      secondary:
-        authentication-database: admin
-        username: ${MONGODB_USERNAME:root}
-        database: ${MONGODB_DATABASE:gatewayClient}
-        password: ${MONGODB_PASSWORD:password}
-        port: ${MONGODB_PORT:27017}
-        host: ${MONGODB_DOMAIN:10.107.225.60}
-
   zipkin:
     base-url: http://${ZIPKIN_HOST:localhost}:9411
   sleuth:
