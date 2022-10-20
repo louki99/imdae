@@ -8,11 +8,11 @@ mongodb:
     host: ${MONGODB_DOMAIN:10.107.225.60}
   gateway:
     authentication-database: admin
-    username: ${MONGODB_USERNAME:root}
-    database: ${MONGODB_DATABASE:gatewayClient}
-    password: ${MONGODB_PASSWORD:password}
-    port: ${MONGODB_PORT:27017}
-    host: ${MONGODB_DOMAIN:10.107.225.60}
+    username: ${MONGODB_CLIENT_USERNAME:root}
+    database: ${MONGODB_CLIENT_DATABASE:gatewayClient}
+    password: ${MONGODB_CLIENT_PASSWORD:password}
+    port: ${MONGODB_CLIENT_PORT:27017}
+    host: ${MONGODB_CLIENT_DOMAIN:10.107.225.60}
 spring:
   zipkin:
     base-url: http://${ZIPKIN_HOST:localhost}:9411
