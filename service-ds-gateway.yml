@@ -1,7 +1,7 @@
 spring:
   data:
     primary:
-      imdae:
+      primary:
         authentication-database: admin
         username: ${MONGODB_USERNAME:root}
         database: ${MONGODB_DATABASE:imdae}
